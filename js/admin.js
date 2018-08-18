@@ -1,0 +1,1 @@
+document.getElementById("aform").onsubmit=chkform2;

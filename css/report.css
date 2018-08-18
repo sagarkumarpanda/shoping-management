@@ -1,0 +1,73 @@
+body{
+margin:0;
+padding:0;
+background-color:blue;
+}
+
+.search1{
+border: none;
+outline: none;
+height: 40px;
+background:green;
+color: white;
+font-size: 18px;
+border-radius:50px;
+width: 150px;
+
+}
+
+.input1{
+	width: 50%;
+	border:none;
+	border:border-box;
+	height: 45px;
+	color: blue;
+	font-size: 20px;
+	margin-left:20%;
+	margin-top:130px;
+	border-radius:10px;
+
+}
+
+.pfile{
+	font-family:Goudy Stout;
+	}
+.search1:hover
+{
+	
+	background:yellow ;
+	color:purple;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+
+}
+.text1{
+	font-size:20px;
+	font-family:Castellar;
+	font-style:italic;
+}
+.h1{
+	margin-top:0;
+	padding :0px,0px,0px,0px;
+	text-align:center;
+	font-size: 20px;
+	color:yellow;
+}
+
+.t1{
+background-color:yellow;
+padding:5px 5px 5px 5px;
+margin:0;
+float:cenetr;
+border-style:dotted;
+width:100%;
+}
+
+.t1 tr td{
+text-align:center;
+background:cyan;
+font-size:20px;
+color:#fd59c9;
+font-style:bold;
+}

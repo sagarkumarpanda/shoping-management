@@ -1,0 +1,126 @@
+
+.p1 {
+	float: left;
+	margin:0; 
+}
+header div h1{
+	font-size: 20pt;
+	font-family: 'viner hand ITC';
+	color: white;
+	margin-top:0px;
+	float:left;
+	padding-top:10px; 
+	margin:0;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+header {
+	margin:0;
+    height:60px;
+	color:white;
+	background: black;
+	padding: 0px 0px 0px 15px;
+	width:100%;
+	position:fixed;
+	z-index:99999999;
+	
+	
+}
+
+.cart{
+	border-radius: 30%;
+	height:38px;
+	width:38px;
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+}
+.ss1{
+	border-radius:50%;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+.ss{
+	background:transparent;
+	float:right;
+}
+
+.p1 {
+	float: left;
+	margin:0; 
+}
+
+.p2{
+	float: right;
+	border-radius: 50%;
+	margin:10px 20px 0px 0px;
+}
+
+header div h1{
+	font-size: 20pt;
+	font-family: 'viner hand ITC';
+	color: white;
+	margin-top:0px;
+	float:left;
+	padding-top:10px; 
+	margin:0;
+
+}
+
+.devider{
+	background:#fd59c9;
+	z-index:99999;
+	height: 40px;
+	top:60px;
+	width:100%;
+	position:fixed;
+}
+
+div ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+div ul li{
+	float: left;
+	width:175px;
+	height: 40px;
+	background-color: #fbee05;
+	opacity: .9;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+div ul li a{
+	text-decoration: none;
+	display: block;
+	color:#b70529;
+	opacity:1; 
+
+}
+
+div ul li a:hover{
+	background-color:cyan;
+}
+
+div ul li ul li{
+	display: none;
+}
+
+div ul li:hover ul li{
+	display: block;
+}
+
+div ul li:hover ul{
+	visibility:visible;
+}

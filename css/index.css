@@ -1,0 +1,294 @@
+body{
+	margin:0;
+	padding:0;
+	background: url(bgimg/sp4.jpeg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    scroll-behavior: none;
+    
+}
+
+header{
+	height: 100px;
+	color:white;
+	background: black;
+	padding: 0px 0px 0px 15px;
+	margin:0;
+}
+
+.a {
+	float: left;
+	margin:0; 
+}
+
+.a1{
+	float: right;
+	display: inline-block;
+}
+nav ul li{
+	display: inline;
+	margin:0;
+	list-style-type: none;
+}
+
+.ficon{
+	width: 40px;
+	height: 40px;
+	padding: 5px,5px,5px,5px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background: white;
+	border-radius: 50px;
+
+
+}
+
+.ticon{
+	width:45px;
+	height: 45px;
+	padding: 5px,5px,5px,5px;
+	margin-top: 10px;
+	margin-right: 50px;
+	background: white;
+	border-radius: 50px;
+}
+
+.iicon{
+	width: 36px;
+	height: 36px;
+	padding: 5px,5px,5px,5px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background: white;
+	border-radius: 50px;
+}
+
+header div h1{
+	font-size: 40pt;
+	font-family: 'viner hand ITC';
+	color: white;
+	margin-top:0px;
+	float:left;
+	padding-top:10px; 
+}
+
+.a3{
+	font-size: 15pt;
+	font-family:'HP Simplified';
+	background: red;
+	color: white;
+    float: right;
+    padding: 0px 5px 5px 5px;
+    text-decoration: none;
+     margin-top: 0px;
+    margin-right: 10pt;
+    border-radius: 10px;
+    
+}
+
+.a3:hover{
+	color:cyan ;
+}
+
+.devider{
+	height: 5px;
+	background:red;
+
+}
+
+.logo{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left:calc( 50% - 50px); 
+	
+}
+.logo2{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top:35%;
+	left:35%;
+}
+.userlogo3{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left:calc( 50% - 50px); 
+
+}
+.loginbox2{
+	width: 350px;
+	height: 500px;
+	background:#3eda0a;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 60px 30px;
+	border-radius: 50px;
+
+
+}
+
+.loginbox{
+	width: 350px;
+	height: 450px;
+	background:transparent;
+	color: white;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 60px 30px;
+	border-radius: 120px;
+
+
+}
+
+.a2{
+	margin:0;
+	padding :0px,0px,20px,0px;
+	text-align:center;
+	font-size: 22px;
+	color:yellow;
+}
+
+.loginbox p{
+	margin-left: 12px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+    
+
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom: 1px solid white;
+	background:transparent;
+	outline: none;
+	height: 20px;
+	color: yellow;
+	font-size: 20px;
+
+}
+
+
+.loginbox input[type="submit"]{
+
+border: none;
+outline: none;
+height: 40px;
+background: red;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+width: 100%
+
+}
+
+.b1{
+	float: right;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	
+	background:yellow ;
+	color:blue;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.loginbox a{
+
+ text-decoration: none;
+ font-size: 16px;
+ line-height: 20px;
+ color:white;
+
+
+}
+
+.loginbox a:hover{
+	color:cyan;
+	font-size: 20px;
+}
+
+.f1{
+	width: 120px;
+	height: 120px;
+	background:white;
+	color: white;
+	margin-top: 10%;
+	margin-left: 5%;
+	position: absolute;
+	border-radius:30%;
+}
+.f2{
+	width: 120px;
+	height: 120px;
+	background:white;
+	color: white;
+	margin-top: 10%;
+	margin-left:15% ;
+	position: absolute;
+	border-radius:30%;
+}
+.f1:hover
+{
+	background:yellow ;
+	color:blue;
+	font-weight: bold;
+	font-size: 25px;
+}
+.f2:hover
+{
+	background:yellow ;
+	color:blue;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.home{
+font-family:HP Simplified;
+font-size:30px;
+color:black;
+text-align:center;
+}
+
+.z1{
+	width:400px;
+	height:300px;
+	background-color:transparent;
+	border-radius:20%;
+	margin-top:10%;
+	margin-left:33%;
+	
+}
+h3{
+	font-family:Chiller;
+	font-size:25px;
+	font-style:italic;
+	color:red;
+}
